@@ -23,7 +23,12 @@ Edite o modelo `src/index.html`, os estilos `src/style.css` e os scripts em `src
 
 ## Usar
 
-Importe JPG, PNG ou WebP (até 20 MB e 16 megapixels), ou carregue o exemplo. Clique no fundo para removê-lo e continue clicando nas outras áreas, inclusive nos espaços dentro das letras: cada clique soma à remoção anterior. “Remover fundo” adiciona a região do pixel superior esquerdo como referência. Tolerância, suavização e áreas conectadas refinam a última região clicada, preservando as anteriores. Depois de usar um pincel, esses ajustes valem para o próximo clique, sem alterar seus retoques. Desfazer volta uma edição por vez.
+Importe JPG, PNG ou WebP (até 20 MB e 16 megapixels), ou carregue o exemplo. Escolha entre:
+
+- **Remover automaticamente:** analisa as cores nas bordas e remove o fundo predominante, sem depender de um único canto. É indicado para fundos uniformes; se não houver uma cor predominante confiável, mantém a edição e sugere o modo manual. Não é segmentação por IA.
+- **Remover por cliques:** ativa a seleção manual. Clique no fundo e depois nos espaços dentro das letras: cada clique soma à remoção anterior. Também serve para completar o resultado automático.
+
+Com “Remover apenas áreas conectadas” marcado, o automático remove regiões conectadas às bordas; no manual, à região clicada. Desmarque para remover a cor de fundo em toda a imagem, inclusive dentro das letras. Tolerância e suavização refinam a última remoção automática ou manual, preservando as anteriores. Depois de usar um pincel, esses ajustes valem para a próxima remoção, sem alterar seus retoques. Desfazer volta uma edição por vez.
 
 Use a roda do mouse dentro da prévia para dar zoom; quando houver espaço de rolagem, o ponto sob o cursor é mantido. Também é possível usar +, − e Encaixar. Fora da prévia, a página continua rolando normalmente.
 
