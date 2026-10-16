@@ -23,7 +23,9 @@ Edite o modelo `src/index.html`, os estilos `src/style.css` e os scripts em `src
 
 ## Usar
 
-Importe JPG, PNG ou WebP (até 20 MB e 16 megapixels), ou carregue o exemplo. Clique no fundo para selecionar sua cor. “Remover fundo” usa o pixel superior esquerdo como referência. Ajuste tolerância e suavização; alterar esses controles recalcula a seleção e substitui os retoques atuais (Desfazer recupera a máscara anterior).
+Importe JPG, PNG ou WebP (até 20 MB e 16 megapixels), ou carregue o exemplo. Clique no fundo para removê-lo e continue clicando nas outras áreas, inclusive nos espaços dentro das letras: cada clique soma à remoção anterior. “Remover fundo” adiciona a região do pixel superior esquerdo como referência. Tolerância, suavização e áreas conectadas refinam a última região clicada, preservando as anteriores. Depois de usar um pincel, esses ajustes valem para o próximo clique, sem alterar seus retoques. Desfazer volta uma edição por vez.
+
+Use a roda do mouse dentro da prévia para dar zoom; quando houver espaço de rolagem, o ponto sob o cursor é mantido. Também é possível usar +, − e Encaixar. Fora da prévia, a página continua rolando normalmente.
 
 Use Apagar e Restaurar para retoques com pincel. O tamanho é medido em pixels da imagem original. Alterne entre Resultado, Original e Área removida; a sobreposição vermelha identifica pixels removidos. Baixar PNG exporta a imagem na resolução original, com canal alfa, independentemente do modo de visualização.
 
