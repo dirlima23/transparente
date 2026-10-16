@@ -4,9 +4,9 @@ Editor de transparência em português, sem dependências de execução externas
 
 ## Baixar e testar sem instalar
 
-Baixe o repositório em **Code → Download ZIP**, extraia os arquivos e abra **transparente.html** no Chrome, Edge ou Firefox atualizado. Essa versão funciona offline, sem Node.js ou servidor. Clique em **Abrir exemplo** ou importe sua imagem para testar.
+Baixe o repositório em **Code → Download ZIP**, extraia os arquivos e abra **index.html** no Chrome, Edge ou Firefox atualizado. Essa versão funciona offline, sem Node.js ou servidor. Clique em **Abrir exemplo** ou importe sua imagem para testar.
 
-O arquivo `transparente.html` contém o aplicativo completo, incluindo estilos e scripts. As imagens não são enviadas para a internet.
+Tanto `index.html` quanto `transparente.html` contêm o aplicativo completo, incluindo estilos e scripts. São versões idênticas e também funcionam quando hospedadas em uma subpasta. As imagens não são enviadas para a internet.
 
 ## Executar
 
@@ -19,7 +19,7 @@ npm start
 
 O servidor usa a porta 3000 por padrão; configure `PORT` para alterar. Execute `npm test` para validar o algoritmo de seleção.
 
-Depois de alterar o código, execute `npm run build` para atualizar `transparente.html` antes de publicar.
+Edite o modelo `src/index.html`, os estilos `src/style.css` e os scripts em `src/`. Depois de alterar o código, execute `npm run build` para atualizar `index.html` e `transparente.html` antes de publicar. `npm start` e `npm run dev` também geram esses arquivos antes de iniciar o servidor.
 
 ## Usar
 
